@@ -1,0 +1,8 @@
+## Interface: 16001
+## Title: PaTiQuest
+## Notes: Auswahlquest und Ziele fuer den installierten WoW-Client
+## Author: PaTi
+## Version: 0.1.0
+## SavedVariablesPerCharacter: PaTiQuestDB
+
+PaTiQuest.lua
