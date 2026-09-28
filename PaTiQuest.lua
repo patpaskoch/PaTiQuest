@@ -14,7 +14,8 @@ local body = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
 body:SetPoint("TOPLEFT", 14, -38)
 body:SetPoint("BOTTOMRIGHT", -14, 14)
 body:SetJustifyH("LEFT")
-body:SetJustifyV("TOP")
+title:Hide()
+PaTiSharedPanel.Attach(frame,"PaTiQuest",{body},"/phq test zeigt die Vorschau.\n/phq lock und /phq unlock sperren das Fenster.")
 
 local function update()
     if testMode then
