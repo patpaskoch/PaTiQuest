@@ -9,6 +9,8 @@ History before this file: `git log`.
   (language, scale, lock), `/phq settings, reset, debug, version`; `/phq` alone shows/hides the window.
 - English texts, German translation.
 ### Changed
+- AddOns list description in English with a German translation (`## Notes-deDE`); README rewritten for players
+  (features, installation, first steps, commands, known limitations).
 - New PaTiShared look instead of the legacy panel (gear, chevron, close button).
 - Settings in PaTiQuestDB get a schema; the 0.1.0 position and lock state are kept.
 ### Fixed

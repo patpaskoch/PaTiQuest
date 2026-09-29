@@ -1,14 +1,27 @@
 # PaTiQuest
 
-Zeigt die im Questlog ausgewählte Quest mit ihren Zieltexten (WoW-Forever-Client, Interface 16001). Reine Anzeige.
+Shows the quest selected in your quest log and its objectives, for World of Warcraft: Forever (Interface 16001).
+Display only.
 
-## Funktionen
-- Titel und Ziele der ausgewählten Quest; Hinweis, wenn keine Quest ausgewählt oder die Quest-API nicht verfügbar ist
-- Menü `•••`: Einstellungen, Sperren/Entsperren, Ein-/Ausklappen, Testmodus, Ausblenden
-- Einstellungen: Sprache, Größe, Fenstersperre; Position wird gespeichert
+> Status: 0.1.0, in development, not yet released. Not yet tested in game since the rework.
 
-## Befehle
-`/phq`, `/patiquest` — ohne Zusatz ein-/ausblenden; `show`, `hide`, `test`, `lock`, `unlock`, `reset` (Position),
-`settings`, `debug`, `version`.
+## Features
+- Title and objectives of the selected quest; a hint when no quest is selected or the quest API is not available
+- ••• menu: Settings, Lock, Collapse, Test Mode, Hide. Settings: language, scale, lock.
+  Languages: English, Deutsch (others fall back to English)
 
-Gemeinsame Oberfläche: PaTiShared UI (eingebettet in `Shared/`, kein separates Addon nötig).
+## Installation
+1. Download the release zip (`PaTiQuest-<version>.zip`).
+2. Unpack it and copy the folder `PaTiQuest` into `World of Warcraft/<client>/Interface/AddOns/`.
+3. Start WoW and enable PaTiQuest in the AddOns list.
+
+## First steps
+- Select a quest in your quest log — PaTiQuest shows it
+- `/phq test` shows an example quest
+
+## Commands
+`/phq` or `/patiquest` — alone: show/hide · `settings` · `test` · `show` · `hide` · `lock` · `unlock` ·
+`reset` (position) · `debug` · `version`
+
+## Known limitations
+- Only the selected quest, no quest list.

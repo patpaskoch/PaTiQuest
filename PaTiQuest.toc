@@ -1,6 +1,7 @@
 ## Interface: 16001
 ## Title: PaTiQuest
-## Notes: Auswahlquest und Ziele fuer den installierten WoW-Client
+## Notes: Shows your selected quest and its objectives
+## Notes-deDE: Zeigt deine ausgewählte Quest und ihre Ziele
 ## Author: PaTi
 ## Version: 0.1.0
 ## SavedVariablesPerCharacter: PaTiQuestDB
