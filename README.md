@@ -1,5 +1,7 @@
 # PaTiQuest
 
+<img src="assets/icon-128.png" width="96" alt="PaTiQuest icon">
+
 Shows the quest selected in your quest log and its objectives, for World of Warcraft: Forever (Interface 16001).
 Display only.
 
@@ -19,9 +21,15 @@ Display only.
 - Select a quest in your quest log — PaTiQuest shows it
 - `/phq test` shows an example quest
 
+## Settings
+`/phq settings` or ••• → Settings: language, scale, window lock.
+
 ## Commands
 `/phq` or `/patiquest` — alone: show/hide · `settings` · `test` · `show` · `hide` · `lock` · `unlock` ·
 `reset` (position) · `debug` · `version`
 
 ## Known limitations
 - Only the selected quest, no quest list.
+
+## License
+MIT — see [LICENSE](LICENSE). Copyright (c) 2026 Patrick Koch.

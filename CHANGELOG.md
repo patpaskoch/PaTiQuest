@@ -5,6 +5,8 @@ History before this file: `git log`.
 
 ## [Unreleased]
 ### Added
+- AddOns list icon from the PaTiSuite icon set (`Media/icon.tga`, `## IconTexture`); platform images in `assets/`.
+- MIT license (`LICENSE`, not part of the release zip).
 - PaTiShared window with ••• menu (Settings, Lock/Unlock, Collapse/Expand, Test Mode, Hide), settings modal
   (language, scale, lock), `/phq settings, reset, debug, version`; `/phq` alone shows/hides the window.
 - English texts, German translation.
