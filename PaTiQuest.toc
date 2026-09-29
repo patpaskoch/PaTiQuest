@@ -4,6 +4,7 @@
 ## Notes-deDE: Zeigt deine ausgewählte Quest und ihre Ziele
 ## Author: PaTi
 ## Version: 0.1.0
+## IconTexture: Interface\AddOns\PaTiQuest\Media\icon
 ## SavedVariablesPerCharacter: PaTiQuestDB
 
 Shared\Shared.xml
