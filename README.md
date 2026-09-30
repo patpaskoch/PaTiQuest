@@ -23,6 +23,7 @@ Display only.
 
 ## Settings
 `/phq settings` or ••• → Settings: language, scale, window lock.
+- **Window:** panel opacity (30–100 %) and snapping to other PaTi windows while dragging
 
 ## Commands
 `/phq` or `/patiquest` — alone: show/hide · `settings` · `test` · `show` · `hide` · `lock` · `unlock` ·
