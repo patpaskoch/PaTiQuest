@@ -23,7 +23,9 @@ Scope: nur die ausgewählte Quest mit ihren Zielen (keine Questliste, keine Duo-
 
 - [ ] PT-QUEST-001 Fresh Install aus dem Release-ZIP: genau ein Ordner `PaTiQuest/`, Addon lädt allein
 - [ ] PT-QUEST-002 PaTiQuest erscheint in der AddOn-Liste mit Beschreibung
-- [ ] PT-QUEST-003 Icon in der AddOn-Liste korrekt, keine weiße oder fehlende Textur
+- [x] PT-QUEST-003 Icon in der AddOn-Liste korrekt, keine weiße oder fehlende Textur
+  - ✅ VERIFIED 2026-10-02
+  - Owner: die Icons erscheinen im Spiel in der AddOn-Liste korrekt.
 - [ ] PT-QUEST-004 Login ohne Lua-Fehler
 - [ ] PT-QUEST-005 `/reload` ohne Lua-Fehler
 
