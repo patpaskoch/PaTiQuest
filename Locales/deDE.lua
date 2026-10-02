@@ -4,6 +4,7 @@ ns.Locales = ns.Locales or {}
 local L = ns.Locales.deDE or {}
 ns.Locales.deDE = L
 
+L.GENERAL = "Allgemein"
 L.NO_API = "Die Quest-API ist in diesem Client nicht verfügbar."
 L.NO_SELECTION = "Wähle eine Quest im Questlog aus."
 L.TEST_HINT = "/phq test zeigt die Vorschau."

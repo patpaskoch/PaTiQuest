@@ -19,6 +19,7 @@ History before this file: `git log`.
 - New PaTiShared look instead of the legacy panel (gear, chevron, close button).
 - Settings in PaTiQuestDB get a schema; the 0.1.0 position and lock state are kept.
 ### Fixed
+- Settings: the first section title showed the key "GENERAL" (no text for it); now "General" / "Allgemein" (FOLLOW_UPS F30).
 - The addon did not load: the TOC listed both Lua files on one line with a literal `` `r`n `` between them.
 - Unreadable quest data (secret, empty or unexpected values) is skipped instead of being compared or concatenated.
 - Saving defaults into the saved variables on every login (`x = x or 330`) is gone.

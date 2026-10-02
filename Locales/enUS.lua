@@ -4,6 +4,7 @@ ns.Locales = ns.Locales or {}
 local L = ns.Locales.enUS or {}
 ns.Locales.enUS = L
 
+L.GENERAL = "General"
 L.NO_API = "The quest API is not available in this client."
 L.NO_SELECTION = "Select a quest in the quest log."
 L.TEST_HINT = "/phq test shows a preview."
