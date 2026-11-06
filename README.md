@@ -2,15 +2,36 @@
 
 <img src="assets/icon-128.png" width="96" alt="PaTiQuest icon">
 
+## What is PaTiQuest?
+
 Shows the quest selected in your quest log and its objectives, for World of Warcraft: Forever (Interface 16001).
 Display only.
 
 > Status: 0.1.0, in development, not yet released. Not yet tested in game since the rework.
 
 ## Features
+
 - Title and objectives of the selected quest; a hint when no quest is selected or the quest API is not available
 - ••• menu: Settings, Lock, Collapse, Test Mode, Hide. Settings: language, scale, lock.
   Languages: English, Deutsch (others fall back to English)
+
+## Installation
+
+![PaTiQuest – three-step installation guide](assets/installation_en.svg)
+
+1. 📥 **Download** – Open [GitHub Releases](https://github.com/patpaskoch/PaTiQuest/releases) and download the `PaTiQuest-<version>.zip` file under **Assets** (not **Source code (zip)**).
+2. 📂 **Extract & Copy** – Right-click the ZIP, select **Extract All**, then copy the extracted `PaTiQuest` folder into the WoW Forever client's `Interface/AddOns/` folder. No renaming is needed.
+3. ☑️ **Enable in Game** – Start WoW, open the **AddOns** menu at character selection, tick **PaTiQuest**, and click **OK**.
+
+## Getting Started
+
+- Select a quest in your quest log — PaTiQuest shows it
+- `/phq test` shows an example quest
+
+## Settings
+
+`/phq settings` or ••• → Settings: language, scale, window lock.
+- **Window:** panel opacity (30–100 %)
 
 ## PaTiSuite
 
@@ -34,27 +55,13 @@ Each one is installed on its own and works on its own; none of them is needed by
 - [PaTiDungeon](https://github.com/patpaskoch/PaTiDungeon) – instance, group and combat status — a fitting companion while questing in groups
 - [PaTiSuite](https://github.com/patpaskoch/PaTiSuite) – shows and hides this window together with the other PaTi windows
 
-## Installation
-
-![PaTiQuest – three-step installation guide](assets/installation_en.svg)
-
-1. 📥 **Download** – Open [GitHub Releases](https://github.com/patpaskoch/PaTiQuest/releases) and download the `PaTiQuest-<version>.zip` file under **Assets** (not **Source code (zip)**).
-2. 📂 **Extract & Copy** – Right-click the ZIP, select **Extract All**, then copy the extracted `PaTiQuest` folder into the WoW Forever client's `Interface/AddOns/` folder. No renaming is needed.
-3. ☑️ **Enable in Game** – Start WoW, open the **AddOns** menu at character selection, tick **PaTiQuest**, and click **OK**.
-
-## First steps
-- Select a quest in your quest log — PaTiQuest shows it
-- `/phq test` shows an example quest
-
-## Settings
-`/phq settings` or ••• → Settings: language, scale, window lock.
-- **Window:** panel opacity (30–100 %)
-
 ## Commands
+
 `/phq` or `/patiquest` — alone: show/hide · `settings` · `test` · `show` · `hide` · `lock` · `unlock` ·
 `reset` (position) · `debug` · `version`
 
 ## Known limitations
+
 - Only the selected quest, no quest list.
 
 ## Development
@@ -62,4 +69,5 @@ Each one is installed on its own and works on its own; none of them is needed by
 Architecture, tests and engineering rules of the suite: [PaTiAdmin](https://github.com/patpaskoch/PaTiAdmin). PaTiAdmin is not a WoW addon — players do not install it. The shared UI code (PaTiShared) is already embedded in this addon's `Shared/` folder; there is nothing extra to install.
 
 ## License
+
 MIT — see [LICENSE](LICENSE). Copyright (c) 2026 Patrick Koch.
