@@ -4,10 +4,12 @@
 
 ## What is PaTiQuest?
 
+> **Installation-test beta available:** [Download the current ZIP from Releases](https://github.com/patpaskoch/PaTiQuest/releases). This is an unverified preview for testing the installation, not a stable release.
+
 Shows the quest selected in your quest log and its objectives, for World of Warcraft: Forever (Interface 16001).
 Display only.
 
-> Status: 0.1.0, in development, not yet released. Not yet tested in game since the rework.
+> Status: 0.1.0, in development, not yet stable. Not yet tested in game since the rework.
 
 ## Features
 
