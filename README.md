@@ -2,20 +2,24 @@
 
 <img src="assets/icon-128.png" width="96" alt="PaTiQuest icon">
 
+## Install
+
+**📥 [Download PaTiQuest Beta](https://github.com/patpaskoch/PaTiQuest/releases/download/v0.1.0-beta.1/PaTiQuest-0.1.0-beta.1.zip)** · [Installation guide](#installation)
+
+*Installation-test preview — not yet a stable release.*
+
 ## What is PaTiQuest?
 
-> **Installation-test beta available:** [Download the current ZIP from Releases](https://github.com/patpaskoch/PaTiQuest/releases). This is an unverified preview for testing the installation, not a stable release.
+**Your quest. Your next objective. Right in sight.**
 
-Shows the quest selected in your quest log and its objectives, for World of Warcraft: Forever (Interface 16001).
-Display only.
-
-> Status: 0.1.0, in development, not yet stable. Not yet tested in game since the rework.
+Keep your eyes on the adventure, not buried in the quest log. PaTiQuest gives the quest you've selected and its objectives a clean little space on your screen — so you always know what you're working toward.
 
 ## Features
 
-- Title and objectives of the selected quest; a hint when no quest is selected or the quest API is not available
-- ••• menu: Settings, Lock, Collapse, Test Mode, Hide. Settings: language, scale, lock.
-  Languages: English, Deutsch (others fall back to English)
+- **Selected quest at a glance:** See the quest you're following.
+- **Clear objectives:** Keep your next steps visible while playing.
+- **No guessing:** Helpful feedback when no quest is selected.
+- **Your screen, your way:** Move, resize or collapse the window.
 
 ## Installation
 
@@ -34,6 +38,12 @@ Display only.
 
 `/phq settings` or ••• → Settings: language, scale, window lock.
 - **Window:** panel opacity (30–100 %)
+
+## Important notes
+
+> **Installation-test beta available:** [Download the current ZIP from Releases](https://github.com/patpaskoch/PaTiQuest/releases). This is an unverified preview for testing the installation, not a stable release.
+
+> Status: 0.1.0, in development, not yet stable. Not yet tested in game since the rework.
 
 ## PaTiSuite
 
